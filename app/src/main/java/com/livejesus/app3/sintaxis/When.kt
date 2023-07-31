@@ -1,4 +1,4 @@
-package com.livejesus.app3
+package com.livejesus.app3.sintaxis
 
 fun main(){
     println(getMonth(12))

@@ -1,4 +1,4 @@
-package com.livejesus.app3
+package com.livejesus.app3.sintaxis
 
 fun main() {
 
@@ -16,6 +16,10 @@ fun main() {
     }
     for ((position, value) in diasDeLaSemana.withIndex()){
         println("Hoy en la posición $position es el dia $value")
+    }
+
+    for(dias in diasDeLaSemana){
+        println("Dias aquí $dias")
     }
 
 }
